@@ -30,8 +30,8 @@ Follow these simple steps to get the script running on your local machine.
 Clone the repository:
 
 ```bash
-git clone <YOUR_REPOSITORY_URL>
-cd <your-repo-folder>
+git clone https://github.com/Am1rX/OpenStreetMap-Note-Search-Scripts.git
+cd OpenStreetMap-Note-Search-Scripts
 ```
 
 Install the required package:
@@ -47,7 +47,7 @@ pip install requests
 Simply run the script from your terminal:
 
 ```bash
-python search_notes.py
+python osm.py
 ```
 
 When prompted, enter the word or phrase you'd like to search:
@@ -90,9 +90,3 @@ Location (Lat, Lon): 51.5074, -0.1278
 
 This project is licensed under the **MIT License**. See the [LICENSE](./LICENSE) file for details.
 
----
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-Feel free to open an issue or submit a pull request.
